@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+.benefits__group{
+    display: flex;
+    gap: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.benefits__element{
+    padding: 20px 16px;
+    border: 1px solid #E0E0E0;
+}
+
+.benef-title{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #156963;
+}
+
+.benef-paragraph{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefits__element:hover{
+    background: #E0E0E0;
+    border-radius: 5px;
+    transition: 0.5s;
+}
