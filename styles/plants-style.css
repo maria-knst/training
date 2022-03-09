@@ -7,3 +7,44 @@
     margin: 85px 0 20px;
 }
 
+.plants__hr{
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.plants__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plants__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.plants-kind, .plant-cost{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.plants-kind{
+    font-weight: 400;
+}
+.plant-cost{
+    font-weight: 600;
+}
+
+
+.featured__capter-select{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    border: 2px solid #E0E0E0;
+}

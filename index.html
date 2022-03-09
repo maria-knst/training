@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/benef-style.css" />
     <link rel="stylesheet" href="./styles/plants-style.css" />
+    <link rel="stylesheet" href="./styles/buy-styles.css" />
+    <link rel="stylesheet" href="./styles/visit-styles.css" />
     <title>Plant shop</title>
   </head>
   <body>
@@ -143,7 +145,11 @@
           <div class="div_plants__title">
             <h3 class="plants__title">Featured Plants</h3>
           </div>
-          <select name="cheapters" id="cheapter">
+          <select
+            name="cheapters"
+            id="cheapter"
+            class="featured__capter-select"
+          >
             <option value="1">Cheaper First</option>
             <option value="2">Cheaper Second</option>
             <option value="3">Cheaper Third</option>
@@ -152,16 +158,92 @@
 
         <hr class="plants__hr" />
 
-        <div class="plants__group"></div>
+        <div class="plants__group">
+          <div class="plants-element">
+            <img
+              src="./images/plants-images/plant1.png"
+              alt="Plant1"
+              class="plant-image"
+            />
+            <p class="plants-kind">Kaktus Plants</p>
+            <p class="plant-cost plant-cost-1">IDR 85.000</p>
+          </div>
+
+          <div class="plants-element">
+            <img
+              src="./images/plants-images/plant2.png"
+              alt="Plant2"
+              class="plant-image"
+            />
+            <p class="plants-kind">Landak Plants</p>
+            <p class="plant-cost plant-cost-2">IDR 105.000</p>
+          </div>
+
+          <div class="plants-element">
+            <img
+              src="./images/plants-images/plant3.png"
+              alt="Plant3"
+              class="plant-image"
+            />
+            <p class="plants-kind">Kecubung Plants</p>
+            <p class="plant-cost plant-cost-3">IDR 85.000</p>
+          </div>
+
+          <div class="plants-element">
+            <img
+              src="./images/plants-images/plant4.png"
+              alt="Plant4"
+              class="plant-image"
+            />
+            <p class="plants-kind">Kecubung Plants</p>
+            <p class="plant-cost plant-cost-4">IDR 85.000</p>
+          </div>
+
+          <div class="plants-element">
+            <img
+              src="./images/plants-images/plant5.png"
+              alt="Plant5"
+              class="plant-image"
+            />
+            <p class="plants-kind">Kecubung Plants</p>
+            <p class="plant-cost plant-cost-5">IDR 85.000</p>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="buy">
-      <div class="container"></div>
+      <div class="container">
+        <div class="block-container">
+          <div class="block1">
+            <h2 class="buy__title">
+              Buy more plants, it <br> helps you to be relaxed
+            </h2>
+            <p class="buy__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et
+              mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas
+              vitae eros sapien. Quisque pellentesque tempus dignissim.
+            </p>
+            <img
+              src="./images/plant-picture-horizontal.png"
+              alt="plant-picture"
+              class="buy__plant-image-v"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="visit">
-      <div class="container"></div>
+      <div class="container">
+        <div class="color-container">
+            <div class="visit__frame">
+              <h2 class="visit__title">Get your favourites plant on our shop now</h2>
+              <button class="visit__button">Visit Shop</button>
+            </div>
+        </div>
+      </div>
     </div>
 
     <div class="footer">

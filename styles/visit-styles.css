@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+.color-container{
+    margin: 80px 0;
+    background: #F3F4F6;
+    min-height: 360px;
+    background-image: url(../images/visit-plant.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-weight: 700;
+}
+
+.visit__frame{
+    width: 40%;
+    margin: 90px 0 auto 100px;
+}
+
+.visit__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.visit__button{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 155px;
+    height: 40px;
+    background: #156963;
+    border: none;
+}
