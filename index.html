@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="./styles/plants-style.css" />
     <link rel="stylesheet" href="./styles/buy-styles.css" />
     <link rel="stylesheet" href="./styles/visit-styles.css" />
+    <link rel="stylesheet" href="./styles/footer-styles.css" />
     <title>Plant shop</title>
   </head>
   <body>
-    <div class="top-section">
+    <header class="top-section">
       <div class="container">
         <div class="navigation">
           <div class="logo">
@@ -52,26 +53,44 @@
             ever since the 1500s,
           </p>
         </div>
+
+        <div class="top-section-buttons">
+          <button class="top-section__button">
+            <div class="top-section__arrow-title">
+              <img src="./images/logos/arrow-back.svg" alt="arrow-left" />
+              <h4>Previous</h4>
+            </div>
+            <p class="top-section__plant-name">Kaktus Plant</p>
+          </button>
+
+          <button class="top-section__button green-background">
+            <div class="top-section__arrow-title">
+              <h4>Next</h4>
+              <img src="./images/logos/arrow-front.svg" alt="arrow-right" />
+            </div>
+            <p class="top-section__plant-name">Rahasia Plant</p>
+          </button>
+        </div>
       </div>
 
-      <div class="top-section-buttons">
-        <button class="top-section__button">
-          <div class="top-section__arrow-title">
-            <img src="./images/logos/arrow-back.svg" alt="arrow-left" />
-            <h4>Previous</h4>
-          </div>
-          <p class="top-section__plant-name">Kaktus Plant</p>
-        </button>
+      <!--      <div class="top-section-buttons">-->
+      <!--        <button class="top-section__button">-->
+      <!--          <div class="top-section__arrow-title">-->
+      <!--            <img src="./images/logos/arrow-back.svg" alt="arrow-left" />-->
+      <!--            <h4>Previous</h4>-->
+      <!--          </div>-->
+      <!--          <p class="top-section__plant-name">Kaktus Plant</p>-->
+      <!--        </button>-->
 
-        <button class="top-section__button green-background">
-          <div class="top-section__arrow-title">
-            <h4>Next</h4>
-            <img src="./images/logos/arrow-front.svg" alt="arrow-right" />
-          </div>
-          <p class="top-section__plant-name">Rahasia Plant</p>
-        </button>
-      </div>
-    </div>
+      <!--        <button class="top-section__button green-background">-->
+      <!--          <div class="top-section__arrow-title">-->
+      <!--            <h4>Next</h4>-->
+      <!--            <img src="./images/logos/arrow-front.svg" alt="arrow-right" />-->
+      <!--          </div>-->
+      <!--          <p class="top-section__plant-name">Rahasia Plant</p>-->
+      <!--        </button>-->
+      <!--      </div>-->
+    </header>
 
     <div class="benefits">
       <div class="container">
@@ -217,7 +236,8 @@
         <div class="block-container">
           <div class="block1">
             <h2 class="buy__title">
-              Buy more plants, it <br> helps you to be relaxed
+              Buy more plants, it <br />
+              helps you to be relaxed
             </h2>
             <p class="buy__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -238,16 +258,57 @@
     <div class="visit">
       <div class="container">
         <div class="color-container">
-            <div class="visit__frame">
-              <h2 class="visit__title">Get your favourites plant on our shop now</h2>
-              <button class="visit__button">Visit Shop</button>
-            </div>
+          <div class="visit__frame">
+            <h2 class="visit__title">
+              Get your favourites plant on our shop now
+            </h2>
+            <button class="visit__button">Visit Shop</button>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="footer">
-      <div class="container"></div>
-    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="foot-zero-div">
+            <h3>plantku</h3>
+            <h5>Plantku House</h5>
+            <p>
+              Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota
+              Yogyakarta, Daerah Istimewa Yogyakarta 55282
+            </p>
+          </div>
+          <div class="foot-div1">
+            <label for="foot-list1">Perusahaan</label>
+            <ul id="foot-list1">
+              <li>Tentang Kami</li>
+              <li>Hubungi Kami</li>
+            </ul>
+          </div>
+          <div class="foot-div2">
+            <label for="foot-list2">Produk</label>
+            <ul id="foot-list2">
+              <li>Tanaman</li>
+              <li>Tanaman Lain</li>
+            </ul>
+          </div>
+          <div class="foot-form-div">
+            <form>
+              <label class="foot-email-label" for="foot-email"
+                >Berlangganan Email Kami</label
+              >
+              <input
+                type="email"
+                id="foot-email"
+                placeholder="Masukan Alamat Email"
+                required
+              />
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
